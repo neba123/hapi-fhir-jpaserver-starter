@@ -7,7 +7,7 @@ services:
     ports:
       - "8080:8080"
   hapi-fhir-postgres:
-    image: postgres:latest
+    image: postgres
     container_name: hapi-fhir-postgres
     restart: always
     ports:

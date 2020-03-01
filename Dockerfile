@@ -3,7 +3,7 @@ FROM hapiproject/hapi:base as build-hapi
 ARG HAPI_FHIR_URL=https://github.com/jamesagnew/hapi-fhir/
 ARG HAPI_FHIR_BRANCH=master
 ARG HAPI_FHIR_STARTER_URL=https://github.com/hapifhir/hapi-fhir-jpaserver-starter/
-ARG HAPI_FHIR_STARTER_BRANCH=master
+ARG HAPI_FHIR_STARTER_BRANCH=neba123-patch-1
 
 RUN git clone --branch ${HAPI_FHIR_BRANCH} ${HAPI_FHIR_URL}
 WORKDIR /tmp/hapi-fhir/

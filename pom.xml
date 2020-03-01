@@ -31,18 +31,23 @@
             <artifactId>websocket-client</artifactId>
             <version>${jetty_version}</version>
         </dependency>
-        <dependency>
+       <!--  <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.11</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql 
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.2.9</version>
-        </dependency> -->
-
+        </dependency>  -->
+	<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+        <dependency>
+             <groupId>postgresql</groupId>
+             <artifactId>postgresql</artifactId>
+             <version>9.1-901.jdbc4</version>
+        </dependency>
         <!-- Needed for Email subscriptions -->
         <dependency>
             <groupId>com.sun.mail</groupId>
